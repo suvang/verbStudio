@@ -1,0 +1,71 @@
+.grey-background{
+    background-color: #3b3b3bab;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.company-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.company-name h1{
+    margin-bottom: 0;
+    color: white;
+}
+
+.company-name p{
+    margin-top: 0;
+    color: grey;
+}
+
+
+.social-media{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.social-media p{
+    color: white;
+}
+
+.terms p{
+    color: white;
+}
+
+.terms{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+    .social-media{
+        width: 100%;
+    }
+
+    .terms{
+        width: 100%;
+    }
+
+    .social-media{
+        margin-bottom: 0;
+    }
+
+    .company-name{
+        margin-bottom: 0;
+    }
+}
+

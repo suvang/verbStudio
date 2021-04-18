@@ -1,0 +1,46 @@
+.toggle-center{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+.toggle-middle{
+    display: flex;
+}
+
+
+.toggle-lib{
+    border: 2px solid red;
+    border-radius: 20px;
+    /* padding: 15px; */
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: red;
+
+    /* position: absolute;
+    left: 25px; */
+}
+
+.toggle-lib a{
+    color: azure;
+}
+
+.toggle-live a{
+    color: azure;
+}
+
+.toggle-live{
+    
+    border: 2px solid #2e2e2ee6;
+    border-radius: 20px;
+    
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #2e2e2ee6;
+   
+}
+

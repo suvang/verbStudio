@@ -1,0 +1,49 @@
+.CategoryTypes-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CategoryTypes-child{
+    display: flex;
+    flex-direction: column;
+}
+
+.CategoryTypes-child a{
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: white;
+    padding: 2px 15px 4px;
+    width: 350px;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .CategoryTypes-child a{
+    width: 180px;
+    padding: 2px 5px 4px;
+    font-size: 13px;
+    
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .CategoryTypes-child a{
+    width: 160px;
+    padding: 2px 0px 4px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .CategoryTypes-child a{
+    width: 150px;
+    padding: 2px 0px 4px;
+    font-size: 12px;
+  }
+}
+

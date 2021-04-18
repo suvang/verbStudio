@@ -1,0 +1,167 @@
+.card{
+    
+    display: flex;
+    height: 300px;
+    /* overflow-x: scroll;
+    overflow-y: hidden; */
+    margin-left: 15px;
+    background-color: black;
+}
+
+div.card{
+    overflow: auto;
+  white-space: nowrap;
+}
+
+
+  div::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+  div::-webkit-scrollbar-track {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  div::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #383838;
+    outline: 2px solid slategrey;
+  }
+  
+  div::-webkit-scrollbar:vertical {
+    display: none;
+  }
+
+
+/* .image img{
+    height: auto;
+    width: 500px;
+    background-size: contain;
+    margin-right: 15px;
+    border-radius: 15px;
+    border: 1px solid #8d8d8db5;
+} */
+
+.image {
+    display: inline-block;
+    height: 100%;
+    width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    border-radius: 15px;
+    border: 1px solid #8d8d8db5;
+}
+
+.title{
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.image-detail{
+    position: absolute;
+    bottom: 2px;
+    display: flex;
+    
+}
+
+
+/* .image-classname{
+    display: flex;
+    align-items: center;
+  
+    height: 70%;
+} */
+
+.image-classname{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 70%;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    text-shadow: 2px 2px #000000;
+}
+
+.image-detail-child{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.image-child-title:even{
+    position: relative;
+    bottom: -20px;
+}
+
+.image-child-title{
+    color: #c5c5c5;
+    font-weight: 600;
+    font-size: 12px;
+    
+}
+
+.image-title-name{
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        display: flex;
+        height: 185px;
+        margin-left: 15px;
+        background-color: black;
+    }
+
+    div::-webkit-scrollbar {
+        height: 2px;
+      }
+      
+      div::-webkit-scrollbar-track {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      }
+      
+      div::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #505050;
+        outline: 1px solid slategrey;
+      }
+      
+      div::-webkit-scrollbar:vertical {
+        display: none;
+      }
+    
+
+    .image {
+        height: 180px;
+        width: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 15px;
+        border-radius: 15px;
+        border: 1px solid #8d8d8db5;
+    }
+
+    .image-child-title{
+        color: #c5c5c5;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    
+    .image-title-name{
+        color: white;
+        font-weight: 700;
+        font-size: 12px;
+    }
+  }
